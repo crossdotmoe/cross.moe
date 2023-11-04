@@ -1,0 +1,84 @@
+
+<html>
+  <head>
+    <title>cross.moe</title>
+    <meta name="title" content="cross.moe" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="cross's portfolio" />
+    <meta name="theme-color" content="#99D051">
+    
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://cross.moe" />
+    <meta property="og:title" content="cross.moe" />
+    <meta property="og:description" content="cross's portfolio" />
+    <meta property="og:image" content="https://i.imgur.com/NMVsIsG.jpeg" />
+    
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://cross.moe" />
+    <meta property="twitter:title" content="cross.moe" />
+    <meta property="twitter:description" content="cross's portfolio" />
+    <meta property="twitter:image" content="https://i.imgur.com/NMVsIsG.jpeg" />
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.4.0/dist/confetti.browser.min.js"></script>
+    <script src="/script.js"></script>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <div class="select-noned flex h-screen flex-col items-center justify-center gap-2 bg-slate-800">
+      <div class="w-[21em] max-w-xl rounded-lg bg-slate-700 py-5 backdrop-blur-none" style="background-image: linear-gradient(to bottom, rgba(15, 23, 42, 0.5), rgba(15, 23, 42, 1)), url('https://i.imgur.com/NMVsIsG.jpeg'); background-size: cover; background-position: center;">
+        <div class="flex items-center justify-center space-x-5">
+          <img id="avatar" draggable="false" class="white-border h-32 w-32 rounded-full border-4 transition duration-300" src="https://i.imgur.com/2exAWLg.jpeg" style="border-color: rgb(128, 132, 142);" />
+          <div class="flex flex-col space-y-1">
+            <p class="text-2xl font-bold text-white">cross</p>
+            <div class="flex items-center space-x-1">
+              <div id="status" class="h-3 w-3 rounded-full transition duration-300" style="background-color: rgb(128, 132, 142);"></div>
+              <p id="status-text" class="text-sm font-semibold text-gray-200">Offline</p>
+            </div>
+            <div class="flex space-x-2">
+              <a class="text-lg font-semibold text-gray-300 transition duration-300 hover:text-white" href="https://x.com/crossdotmoe"><i class="fab fa-x-twitter"></i></a>
+              <a class="text-lg font-semibold text-gray-300 transition duration-300 hover:text-white" href="https://www.instagram.com/crossdotmoe"><i class="fab fa-instagram"></i></a>
+              <a class="text-lg font-semibold text-gray-300 transition duration-300 hover:text-white" href="https://www.reddit.com/u/crossdotmoe"><i class="fab fa-reddit"></i></a>
+              <a class="text-lg font-semibold text-gray-300 transition duration-300 hover:text-white" href="https://github.com/crossdotmoe"><i class="fab fa-github"></i></a>
+              <a class="text-lg font-semibold text-gray-300 transition duration-300 hover:text-white" href="https://www.youtube.com/@crossdotmoe"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="w-[21em] max-w-xl rounded-lg bg-slate-900 py-5 backdrop-blur-none">
+        <div class="flex items-center justify-center space-x-5">
+          <div class="flex flex-col space-y-1 text-center">
+            <p class="text-2xl font-bold text-white">About</p>
+            <p class="text-sm font-semibold text-gray-200">Programmer, Avid Manga Reader</p>
+          </div>
+        </div>
+      </div>
+      <div class="w-[21em] max-w-xl rounded-lg bg-slate-900 py-5 backdrop-blur-none">
+        <div class="flex items-center justify-center space-x-5">
+          <div class="flex flex-col space-y-1 text-center">
+            <p class="text-sm font-bold text-gray-200">
+            <p class="text-2xl font-bold text-white">Projects</p>
+            <p class="text-sm font-semibold text-gray-200">Anime Streaming @ <a href="https://anime.cross.moe/" style="color: #5765F2;">AnimeCross</a></p>
+            <p class="text-sm font-semibold text-gray-200">Movies & TV @ <a href="https://tv.cross.moe/" style="color: #E86369;">CrossTV</a> + <a href="https://flix.cross.moe/" style="color: #EB8800;">CrossFlix</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="w-[21em] max-w-xl rounded-lg bg-slate-900 py-5 backdrop-blur-none">
+        <div class="flex items-center justify-center space-x-5">
+          <div class="flex flex-col space-y-1 text-center">
+            <p class="text-2xl font-bold text-white">Email</p>
+            <a href="mailto:contact@cross.moe" class="text-sm font-semibold text-gray-200 blur-sm hover:blur-none transition duration-300">contact@cross.moe</a>
+          </div>
+        </div>
+      </div>
+      <div class="w-[21em] max-w-xl rounded-lg bg-slate-900 py-5 backdrop-blur-none">
+        <div class="flex items-center justify-center space-x-5">
+          <div class="flex flex-col space-y-1 text-center">
+            <p class="text-sm font-bold text-white">© 2021-2023 </p>
+          </div>
+        </div>
+      </div>
+    </div>
+</body>
+</html>
