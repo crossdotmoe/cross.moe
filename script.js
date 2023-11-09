@@ -1,3 +1,4 @@
+// https://burbur.dev //
 let ws = null;
 let heartbeatInterval = null;
 
